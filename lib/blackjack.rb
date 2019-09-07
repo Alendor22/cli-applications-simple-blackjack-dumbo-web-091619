@@ -37,7 +37,8 @@ def hit?(number)
   elsif answer == "s"
     number = number
   elsif answer
-  else puts invalid_command
+  else !answer
+    puts invalid_command
   end
 end
 
