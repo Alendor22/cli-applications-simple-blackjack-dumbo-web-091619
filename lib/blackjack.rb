@@ -53,17 +53,18 @@ end
 
 def runner
   welcome
-  initial_round
-  get_user_input
-  hit?
-  while answer == "s" do
+  while initial_round do
+    get_user_input
+    hit?
+    if answer == "s" do
     hit?
   end
-    if hit?
+    if answer == hit?
       display_card_total
       until
       card_total > 21
       end
     end
+  end
 end
     
