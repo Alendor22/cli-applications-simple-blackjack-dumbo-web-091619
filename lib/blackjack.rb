@@ -34,11 +34,11 @@ def hit?(number)
   answer = get_user_input
   if answer == "h"
     number += deal_card
+     invalid_command
   elsif answer == "s"
     number = number
   else answer
   end
-  invalid_command
 end
 
 def invalid_command
