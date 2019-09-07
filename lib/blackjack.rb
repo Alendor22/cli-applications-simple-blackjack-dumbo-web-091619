@@ -60,9 +60,8 @@ def runner
     hit?
   end
     if hit?
-      deal_card
       display_card_total
-    end
+      until
       card_total > 21
 end
     
