@@ -55,7 +55,7 @@ def runner
   welcome
   initial_round
   hit?
-  if "s"
+  while answer = "s" do
     hit?
     if hit?
       deal_card
