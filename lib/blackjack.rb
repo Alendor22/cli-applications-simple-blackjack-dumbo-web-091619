@@ -34,7 +34,7 @@ def hit?(number)
   answer = get_user_input
   if answer == "h"
     number += deal_carda
-  else answer == "s"
+  elsif answer == "s"
     number = number
   end
   answer
