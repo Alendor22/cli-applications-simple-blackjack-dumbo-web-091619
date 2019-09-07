@@ -34,6 +34,7 @@ def hit?(number)
   answer = get_user_input
   if answer == "h"
     number += deal_card
+    
   elsif answer == "s"
     number = number
   elsif answer
