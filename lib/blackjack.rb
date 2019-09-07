@@ -34,7 +34,6 @@ def hit?(number)
   answer = get_user_input
   if answer == "h"
     number += deal_card
-    display_card_total(number)
   elsif answer == "s"
     number = number
   else answer != "h" || "s"
