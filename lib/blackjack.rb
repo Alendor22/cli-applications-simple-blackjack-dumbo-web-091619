@@ -57,6 +57,7 @@ def runner
   hit?
   while answer == "s" do
     hit?
+  end
     if hit?
       deal_card
       display_card_total
