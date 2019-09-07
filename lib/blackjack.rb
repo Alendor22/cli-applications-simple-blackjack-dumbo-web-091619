@@ -53,8 +53,7 @@ end
 
 def runner
   welcome
-  while initial_round do
-    get_user_input
+  card_total = initial_round
     hit?
     if answer == "s"
     hit?
