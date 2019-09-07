@@ -40,7 +40,6 @@ def hit?(number)
   else answer != "h" || "s"
     invalid_command
     prompt_user
-  end
 end
 end
 
