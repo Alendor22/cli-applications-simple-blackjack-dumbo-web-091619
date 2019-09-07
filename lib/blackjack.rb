@@ -55,11 +55,12 @@ def runner
   welcome
   initial_round
   hit?
-  while answer = "s" do
+  while answer == "s" do
     hit?
     if hit?
       deal_card
       display_card_total
-      if card_total > 21
+    end
+      card_total > 21
 end
     
