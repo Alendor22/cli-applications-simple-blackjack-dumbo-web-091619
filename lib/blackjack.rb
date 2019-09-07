@@ -38,7 +38,7 @@ def hit?(number)
     number = number
   else answer
   end
-  puts invalid_command
+  invalid_command
 end
 
 def invalid_command
