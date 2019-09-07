@@ -56,7 +56,7 @@ def runner
   while initial_round do
     get_user_input
     hit?
-    if answer == "s" do
+    if answer == "s"
     hit?
   end
     if answer == hit?
