@@ -36,8 +36,8 @@ def hit?(number)
     number += deal_carda
   elsif answer == "s"
     number = number
+  else answer
   end
-  answer
 end
 
 def invalid_command
