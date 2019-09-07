@@ -37,13 +37,13 @@ def hit?(number)
   elsif answer == "s"
     number = number
   elsif answer
-  if answer != "h" || "s"
-    puts invalid_command
+  puts invalid_command
   end
 end
 end
 
 def invalid_command
+   if answer != "h" || "s"
    puts "Please enter a valid command"
 end
 
